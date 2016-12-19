@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
-var port = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 
-app.listen(port, function () {
-    console.log('Express server started on port '+port+'!');
+app.listen(PORT, function () {
+    console.log('Express server started on port ' + PORT + '!');
 });
 var middleware = require('./middleware.js')
 
